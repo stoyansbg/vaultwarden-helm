@@ -4,7 +4,7 @@ Helm chart for deploying [dani-garcia/bitwarden_rs](https://github.com/dani-garc
 
 ```console
 $ helm repo add bitwarden https://constin.github.io/vaultwarden-helm/
-$ helm install bitwarden bitwarden/vaultwarden-helm
+$ helm install bitwarden bitwarden/vaultwarden
 ```
 
 OR
@@ -21,7 +21,7 @@ $ helm install bitwarden ./chart/vaultwarden-helm
 To install the chart with the release name `my-release`:
 
 ```console
-$ helm install my-release bitwarden/vaultwarden-helm
+$ helm install my-release bitwarden/vaultwarden
 ```
 
 ## Uninstalling the Chart
