@@ -1,12 +1,12 @@
 apiVersion: v1
 appVersion: "1.1"
 description: A Bitwarden Helm chart for Kubernetes
-name: vaultwarden-helm
+name: vaultwarden
 version: 0.1.7
-home: https://github.com/dani-garcia/bitwarden_rs
+home: https://github.com/dani-garcia/vaultwarden
 icon: https://raw.githubusercontent.com/bitwarden/brand/master/icons/icon.svg
 sources:
-  - https://github.com/dani-garcia/bitwarden_rs
+  - https://github.com/dani-garcia/vaultwarden
   - https://github.com/constin/vaultwarden-helm
 maintainers:
   - name: constin
