@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "bitwarden-k8s.fullname" . }}
+  name: {{ include "vaultwarden.fullname" . }}
   labels:
-    app.kubernetes.io/name: {{ include "bitwarden-k8s.name" . }}
-    helm.sh/chart: {{ include "bitwarden-k8s.chart" . }}
+    app.kubernetes.io/name: {{ include "vaultwarden.name" . }}
+    helm.sh/chart: {{ include "vaultwarden.chart" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
     app.kubernetes.io/managed-by: {{ .Release.Service }}
 spec:
@@ -18,5 +18,5 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app.kubernetes.io/name: {{ include "bitwarden-k8s.name" . }}
+    app.kubernetes.io/name: {{ include "vaultwarden.name" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}

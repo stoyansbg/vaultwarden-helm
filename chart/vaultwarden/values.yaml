@@ -1,4 +1,4 @@
-# Default values for bitwarden-k8s.
+# Default values for vaultwarden.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
@@ -54,6 +54,11 @@ ingress:
     - secretName: bitwarden-tls
       hosts:
         - bitwarden.example
+
+  # pathType is only for k8s >= 1.1=
+  pathType: Prefix
+
+
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
