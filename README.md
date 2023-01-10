@@ -1,35 +1,31 @@
 # vaultwarden
-Helm chart for deploying [dani-garcia/bitwarden_rs](https://github.com/dani-garcia/vaultwarden) in Kubernetes.
-
-
-```console
-$ helm repo add bitwarden https://constin.github.io/vaultwarden-helm/
-$ helm install bitwarden bitwarden/vaultwarden
-```
-
-OR
-
-```console
-$ git clone https://github.com/constin/vaultwarden-helm
-$ cd vaultwarden
-$ helm install bitwarden ./chart/vaultwarden-helm
-```
+Helm chart for deploying [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) in Kubernetes.
 
 
 ## Installing the Chart
+<!-- 
+```console
+$ helm repo add vaultwarden https://stoyansbg.github.io/vaultwarden-helm/
+$ helm install vaultwarden vaultwarden/vaultwarden \
+    -n vaultwarden \
+    --create-namespace
+```
 
-To install the chart with the release name `my-release`:
+OR -->
 
 ```console
-$ helm install my-release bitwarden/vaultwarden
+$ git clone https://github.com/stoyansbg/vaultwarden-helm
+$ cd vaultwarden-helm
+$ helm install vaultwarden ./chart/vaultwarden \
+    -n vaultwarden \
+    --create-namespace
+
 ```
 
 ## Uninstalling the Chart
 
-To uninstall/delete the my-release deployment:
-
 ```console
-$ helm delete my-release
+$ helm delete vaultwarden -n vaultwarden
 ```
 
 
