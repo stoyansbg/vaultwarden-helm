@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: bitwardenrs/server
-  tag: latest
+  repository: vaultwarden/server
+  tag: 1.27.0
   pullPolicy: IfNotPresent
   # imagePullSecrets for accessing private registries
   # pullSecrets: regcred
