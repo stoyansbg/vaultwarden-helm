@@ -6,7 +6,7 @@ Helm chart for deploying [dani-garcia/vaultwarden](https://github.com/dani-garci
 
 ```console
 $ helm repo add vaultwarden https://stoyansbg.github.io/vaultwarden-helm/
-$ helm install vaultwarden vaultwarden/vaultwarden \
+$ helm upgrade -i vaultwarden vaultwarden/vaultwarden \
     -n vaultwarden \
     --create-namespace
 ```
@@ -16,7 +16,7 @@ OR
 ```console
 $ git clone https://github.com/stoyansbg/vaultwarden-helm
 $ cd vaultwarden-helm
-$ helm install vaultwarden ./chart/vaultwarden \
+$ helm upgrade -i vaultwarden ./chart/vaultwarden \
     -n vaultwarden \
     --create-namespace
 
