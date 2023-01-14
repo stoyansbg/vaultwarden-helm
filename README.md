@@ -8,6 +8,7 @@ Helm chart for deploying [dani-garcia/vaultwarden](https://github.com/dani-garci
 $ helm repo add vaultwarden https://stoyansbg.github.io/vaultwarden-helm/
 $ helm upgrade -i vaultwarden vaultwarden/vaultwarden \
     -n vaultwarden \
+    -f values.yaml \
     --create-namespace
 ```
 
