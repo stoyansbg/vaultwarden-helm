@@ -3,7 +3,7 @@ Helm chart for deploying [dani-garcia/vaultwarden](https://github.com/dani-garci
 
 
 ## Installing the Chart
-<!-- 
+
 ```console
 $ helm repo add vaultwarden https://stoyansbg.github.io/vaultwarden-helm/
 $ helm install vaultwarden vaultwarden/vaultwarden \
@@ -11,7 +11,7 @@ $ helm install vaultwarden vaultwarden/vaultwarden \
     --create-namespace
 ```
 
-OR -->
+OR
 
 ```console
 $ git clone https://github.com/stoyansbg/vaultwarden-helm
