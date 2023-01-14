@@ -16,6 +16,6 @@ entries:
     - https://github.com/dani-garcia/vaultwarden
     - https://github.com/stoyansbg/vaultwarden-helm
     urls:
-    - https://github.com/stoyansg/vaultwarden-helm/releases/download/vaultwarden-helm-1.27.0/vaultwarden-1.27.0.tgz
+    - https://github.com/stoyansg/vaultwarden-helm/releases/download/vaultwarden-helm-0.2.0/vaultwarden-0.2.0.tgz
     version: 0.2.0
 generated: "2022-02-11T11:42:50.066193553+02:00"
