@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: vaultwarden/server
-  tag: 1.27.0
+  tag: 1.28.0
   pullPolicy: IfNotPresent
   # imagePullSecrets for accessing private registries
   # pullSecrets: regcred
