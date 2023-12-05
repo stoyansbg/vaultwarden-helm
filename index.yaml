@@ -2,6 +2,23 @@ apiVersion: v1
 entries:
   vaultwarden:
   - apiVersion: v1
+    appVersion: 1.30.1
+    created: "2023-12-05T21:17:17.450691474Z"
+    description: A Vaultwarden Helm chart for Kubernetes
+    digest: 017fccb661f89adf251a575e2da3eaf5731f040eb874365616c8710fc13df027
+    home: https://github.com/dani-garcia/vaultwarden
+    icon: https://raw.githubusercontent.com/bitwarden/brand/master/icons/icon.svg
+    maintainers:
+    - email: stoyan@kubesys.net
+      name: stoyansbg
+    name: vaultwarden
+    sources:
+    - https://github.com/dani-garcia/vaultwarden
+    - https://github.com/stoyansbg/vaultwarden-helm
+    urls:
+    - https://github.com/stoyansbg/vaultwarden-helm/releases/download/vaultwarden-1.0.0/vaultwarden-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v1
     appVersion: 1.29.2
     created: "2023-09-05T19:26:46.879132994Z"
     description: A Vaultwarden Helm chart for Kubernetes
@@ -120,4 +137,4 @@ entries:
     urls:
     - https://github.com/stoyansbg/vaultwarden-helm/releases/download/vaultwarden-0.2.1/vaultwarden-0.2.1.tgz
     version: 0.2.1
-generated: "2023-09-05T19:26:46.879160496Z"
+generated: "2023-12-05T21:17:17.450725858Z"
